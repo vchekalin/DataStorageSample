@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>ADN-CIS Data Storage - Сохранение</Text>
+    <Description>Some description for DataStorageSample</Description>
+    <Assembly>DataStorageSample.dll</Assembly>
+    <FullClassName>DataStorageSample.CommandWriteSettings</FullClassName>
+    <ClientId>444b0f2a-6d75-4c50-b2f7-e28eb9f5ba87</ClientId>
+    <VendorId>ADNCIS</VendorId>
+    <VendorDescription>http://adn-cis.org</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Text>ADN-CIS Data Storage - Чтение</Text>
+    <Description>Some description for DataStorageSample</Description>
+    <Assembly>DataStorageSample.dll</Assembly>
+    <FullClassName>DataStorageSample.CommandReadSettings</FullClassName>
+    <ClientId>444b0f2b-6d75-4c50-b2f7-e28eb9f5ba87</ClientId>
+    <VendorId>ADNCIS</VendorId>
+    <VendorDescription>http://adn-cis.org</VendorDescription>
+  </AddIn>
+</RevitAddIns>
